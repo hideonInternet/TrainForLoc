@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*------------// Overall //------------------*/
+body{font:12px/180% Arial,Helvetica,Verdana;color:#5a5a5a; margin:0; background:#FFF;}
+body.login{ background:url(../images/login_bgx.gif);}
+A:link{text-decoration:none; color:#58595b;}
+A:visited{text-decoration:none; color:#58595b;}
+A:hover{text-decoration:none; color:#206fd5;}
+img{ border:0; }
+div,p,img,ul,li,form,input,label,span,dl,dt,dd,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner{   border:none;padding:0 } 
+ol,ul,li{list-style-type:none;}
+.overz{ overflow:auto; zoom:1; overflow-x:hidden; overflow-y:hidden;}
+.dspn{ display:none;}
+a{blr:expression(this.onFocus=this.blur())} /*for IE*/
+a{outline:none;} /*for Firefox*/
+html{-webkit-text-size-adjust:none;}
+
+/*--content--*/
+iframe{
+	width:100%;
+}
+
+/*--login--*/
+.login_m{ width:403px; margin:0 auto; height:375px; margin-top:98px; /*position: absolute;left:50%;top:50%;margin-left:-202px;margin-top:-188px;*/}
+.login_logo{ text-align:center; margin-bottom:25px;}
+.login_boder{ background: url(../images/login_m_bg.png) no-repeat; height:302px; overflow:hidden;}
+.login_padding{ padding:28px 47px 20px 47px ;}
+.login_boder h2{ color:#4f5d80; text-transform:uppercase; font-size:12px; font-weight:normal; margin-bottom:11px;}
+
+.login_boder input.txt_input{ width:295px; height:36px; border:1px solid #cad2db; padding:0 5px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; line-height:36px; margin-bottom:10px; font-size:14px; color:#717171; font-family:Arial;}
+.login_boder input.txt_input2{ margin-bottom:20px;}
+.login_boder input.txt_input:focus{ transition:border linear .2s,box-shadow linear .2s; -moz-transition:border linear .2s,-moz-box-shadow linear .2s; -webkit-transition:border linear .2s,-webkit-box-shadow linear .2s; outline:none;border-color:rgba(173,173,173.75); box-shadow:0 0 8px rgba(173,173,173,.5); -moz-box-shadow:0 0 8px rgba(173,173,173,.5); -webkit-box-shadow:0 0 8px rgba(173,173,173,3); border:1px solid #6192c8;}
+
+
